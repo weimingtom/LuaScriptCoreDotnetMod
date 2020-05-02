@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaScriptCore", "LuaScriptCore_dll\LuaScriptCore.vcxproj", "{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "luascriptcore_console", "luascriptcore_console.csproj", "{B5707F11-D465-418B-82E3-E26DC9CCB597}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A} = {1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Debug|Win32.Build.0 = Debug|Win32
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Release|Win32.ActiveCfg = Release|Win32
+		{1F8B20F7-E940-4734-8FE9-FF0A0F53AB8A}.Release|Win32.Build.0 = Release|Win32
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B5707F11-D465-418B-82E3-E26DC9CCB597}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

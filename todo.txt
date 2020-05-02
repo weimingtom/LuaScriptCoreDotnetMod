@@ -1,0 +1,4 @@
+﻿if (false)
+{
+    Marshal.FreeHGlobal(objectPtr); //FIXME:
+}
